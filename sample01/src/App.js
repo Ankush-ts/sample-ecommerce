@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import CounterComponent from './components/counter'
+import ConditionalComponent from './components/conditionalcomponent'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           Bunnu hi hai tunnu
         </p>
        < CounterComponent/>
+       <ConditionalComponent/>
         <a
           className="App-link"
           href="https://reactjs.org"
